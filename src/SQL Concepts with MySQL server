@@ -1,0 +1,40 @@
+How to manage databases:
+=======================
+     
+1. Command to get the list of databases in the MySQL database server
+
+answer: show databases;
+
+2. Command to create database in MySQL database server
+
+answer: create database name-of-database;
+        for example, create database employee_db;
+
+3. Command to drop the database from the list of databases from MySQL database server
+
+answer: drop database database-name;
+
+4. Command to select the database in MySQL database server.
+
+answer: use database-name;
+
+--------------------------------------------------------------------------------------- 
+
+How to Manage the tables in databases:
+=====================================
+
+1. Command to check the tables in MySQL database server.
+
+answer: show tables;
+
+
+2. Command to create table in MySQL database server.
+
+answer: create table employee(employee_id int(20) not null primary key, employee_name varchar(100) not null, employee_role varchar(100) not null);
+
+3. Command to describe the database tables.
+
+answer: desc table-name;
+
+for example, desc employee;
+
